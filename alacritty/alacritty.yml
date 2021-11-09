@@ -1,0 +1,88 @@
+env:
+  TERM: xterm-256color
+window:
+  dynamic_padding: true
+  decorations: full
+  startup_mode: Maximized
+  title: Alacritty@Garuda
+  class:
+    instance: Alacritty
+    general: Alacritty
+  gtk_theme_variant: dark
+scrolling:
+  history: 10000
+  multiplier: 3
+font:
+  size: 14
+  normal:
+    family: FantasqueSansMono
+  bold:
+    family: FantasqueSansMono
+  italic:
+    family: FantasqueSansMono
+  bold_italic:
+    family: FantasqueSansMono
+    size: 10
+draw_bold_text_with_bright_colors: true
+background_opacity: 0.9
+save_to_clipboard: true
+window.dynamic_title: true
+cursor:
+  style: Block
+live_config_reload: true
+shell:
+  program: /usr/bin/fish
+mouse:
+  hide_when_typing: true
+key_bindings:
+  - key: V
+    mods: Control|Shift
+    action: Paste
+  - key: C
+    mods: Control|Shift
+    action: Copy
+  - key: Insert
+    mods: Shift
+    action: PasteSelection
+  - key: Key0
+    mods: Control
+    action: ResetFontSize
+  - key: Equals
+    mods: Control
+    action: IncreaseFontSize
+  - key: Plus
+    mods: Control
+    action: IncreaseFontSize
+  - key: Minus
+    mods: Control
+    action: DecreaseFontSize
+  - key: Minus
+    mods: Control
+    action: DecreaseFontSize
+colors:
+  name: Erebus
+  author: ""
+  primary:
+    background: "#000000"
+    foreground: "#ffffff"
+  cursor:
+    text: "#000000"
+    cursor: "#ffffff"
+  normal:
+    black: "#757575"
+    red: "#ff5f5f"
+    green: "#de8a36"
+    yellow: "#d78787"
+    blue: "#af5fd7"
+    magenta: "#ff87d7"
+    cyan: "#dea3e5"
+    white: "#b8b8b8"
+  bright:
+    black: "#b8b8b8"
+    red: "#d78787"
+    green: "#ff9f6f"
+    yellow: "#ff5f5f"
+    blue: "#dea3e5"
+    magenta: "#d7afaf"
+    cyan: "#af5fd7"
+    white: "#757575"

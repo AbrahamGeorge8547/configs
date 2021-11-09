@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/home/abe/work/Trolli/src/services'
+let g:netrw_dirhist_1='/home/abe/work/Trolli/src'
+let g:netrw_dirhist_0='/home/abe/work/Trolli'
+let g:netrw_dirhist_9='/home/abe/work/Trolli/src'
+let g:netrw_dirhist_8='/home/abe/work/Trolli'
+let g:netrw_dirhist_7='/home/abe/work/Trolli/src/controllers'
+let g:netrw_dirhist_6='/home/abe/work/Trolli/src'
+let g:netrw_dirhist_5='/home/abe/work/Trolli'
+let g:netrw_dirhist_4='/home/abe/work/kiterise-server/src'
+let g:netrw_dirhist_3='/home/abe/work/kiterise-server/src/controllers'
